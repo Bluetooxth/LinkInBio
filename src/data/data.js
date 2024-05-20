@@ -1,6 +1,7 @@
 import { FaLinkedinIn , FaXTwitter , FaYoutube } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { IoMdJet } from "react-icons/io";
+import { IoLogoWebComponent } from "react-icons/io5";
 
 const profiles = [
     {
@@ -24,7 +25,7 @@ const links = [
     {
         plateform : "Portfolio",
         url : "https://priyanxhuportfolio.vercel.app/",
-        icon : <IoMdJet />
+        icon : <IoLogoWebComponent />
     },
     {
         plateform : "Twitter",

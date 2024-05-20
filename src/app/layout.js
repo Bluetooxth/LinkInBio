@@ -1,5 +1,4 @@
 import { Syne } from "next/font/google";
-import Head from "next/head"
 import "./globals.css";
 import "./style.css";
 
@@ -14,10 +13,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        {/* Add the meta tag for Google AdSense */}
-        <meta name="google-adsense-account" content="ca-pub-7363136706117487" />
-      </Head>
       <body className={syne.className}>{children}</body>
     </html>
   );
