@@ -24,7 +24,7 @@ const links = [
     },
     {
         plateform : "Portfolio",
-        url : "https://priyanxhuportfolio.vercel.app/",
+        url : "https://priyanshuchahar.vercel.app/",
         icon : <IoLogoWebComponent />
     },
     {
