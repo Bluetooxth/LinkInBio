@@ -14,7 +14,7 @@ const profiles = [
 const links = [
     {
         plateform : "Github",
-        url : "https://github.com/priyannxhuu",
+        url : "https://github.com/nvmesensor",
         icon : <FaGithub />
     },
     {
