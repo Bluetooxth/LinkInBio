@@ -1,8 +1,8 @@
-import { Syne } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "./style.css";
 
-const syne = Syne({ subsets: ["latin"] });
+const jetmono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Priyanshu Chahar",
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
       </head>
-      <body className={syne.className}>{children}</body>
+      <body className={jetmono.className}>{children}</body>
     </html>
   );
 }

@@ -15,8 +15,8 @@ const LinkPage = () => {
                 <div className="flex flex-col justify-center items-center gap-2 w-full">
             {links.map((link, index) => (
                     <Link key={index} href={link.url} className="flex flex-row justify-between items-center w-full px-6 py-4 rounded-lg cursor-pointer link-card">
-                        <p className="text-slate-300 text-2xl font-medium hover:text-cyan-700 hover:underline transition ease-in-out">{link.plateform}</p>
-                        <p className="text-cyan-600 text-3xl hover:text-cyan-700 transition ease-in-out">{link.icon}</p>
+                        <p className="text-slate-300 text-xl font-medium hover:text-cyan-700 hover:underline transition ease-in-out">{link.plateform}</p>
+                        <p className="text-slate-400 text-3xl hover:text-cyan-700 transition ease-in-out">{link.icon}</p>
                     </Link>
             ))}
             </div>
