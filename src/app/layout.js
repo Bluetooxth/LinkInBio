@@ -1,8 +1,8 @@
-import { JetBrains_Mono } from "next/font/google";
+import { Inconsolata } from "next/font/google";
 import "./globals.css";
 import "./style.css";
 
-const jetmono = JetBrains_Mono({ subsets: ["latin"] });
+const jetmono = Inconsolata({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Priyanshu Chahar",
