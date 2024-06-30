@@ -1,8 +1,8 @@
-import { Inconsolata } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import "./style.css";
 
-const jetmono = Inconsolata({ subsets: ["latin"] });
+const jetmono = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Priyanshu Chahar",
