@@ -1,12 +1,28 @@
-body{
-    background-image: radial-gradient(#55555560 1px, transparent 1px);
-    background-size: 32px 32px;
-    background-color: #181818;
+body {
+    background-image: 
+      linear-gradient(#55555530 1px, transparent 1px),
+      linear-gradient(90deg, #55555530 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-color: #181b1b;
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
     scroll-behavior: smooth;
-}
+    position: relative;
+    z-index: 0;
+  }
+  
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: -1;
+    pointer-events: none;
+  }
 
 .link-card{
     background: #55555555;
