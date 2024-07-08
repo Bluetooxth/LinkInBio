@@ -6,7 +6,7 @@ import { IoLogoWebComponent } from "react-icons/io5";
 const profiles = [
     {
         name : "Priyanshu Chahar",
-        developer : "Full Stack Developer",
+        developer : "MERN Stack Developer",
         image : "/profile.png"
     }
 ]
