@@ -1,29 +1,24 @@
-body {
-    background-image: 
-      linear-gradient(#55555530 1px, transparent 1px),
-      linear-gradient(90deg, #55555530 1px, transparent 1px);
-    background-size: 50px 50px;
-    background-color: #181b1b;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    position: relative;
-    z-index: 0;
-  }
-  
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
-    z-index: -1;
-    pointer-events: none;
-  }
 
-.link-card{
-    background: #55555555;
+body{
+  background-color: #3affb4;
+}
+
+.github{
+    background: #fb5649;
+}
+.linkedin{
+    background: #fed641;
+}
+.portfolio{
+    background: #41d0fb;
+}
+.twitter{
+    background: #fb5649;
+}
+.youtube{
+    background: #fed641;
+}
+
+.github , .linkedin , .portfolio , .twitter , .youtube{
+    box-shadow: 5px 5px 0px #18181b;
 }

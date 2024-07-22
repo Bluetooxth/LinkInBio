@@ -1,8 +1,8 @@
-import { Montserrat } from "next/font/google";
+import { Jua } from "next/font/google";
 import "./globals.css";
 import "./style.css";
 
-const jetmono = Montserrat({ subsets: ["latin"] });
+const jetmono = Jua({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Priyanshu Chahar",
