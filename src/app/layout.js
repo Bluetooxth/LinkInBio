@@ -1,8 +1,6 @@
-import { Jua } from "next/font/google";
 import "./globals.css";
 import "./style.css";
 
-const jetmono = Jua({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Priyanshu Chahar",
@@ -19,7 +17,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
       </head>
-      <body className={jetmono.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

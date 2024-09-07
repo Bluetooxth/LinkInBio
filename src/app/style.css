@@ -1,24 +1,28 @@
-
-body{
-  background-color: #3affb4;
+@font-face {
+  font-family: "pixels";
+  src: url("/font2.woff2");
 }
 
-.github{
-    background: #fb5649;
-}
-.linkedin{
-    background: #fed641;
-}
-.portfolio{
-    background: #41d0fb;
-}
-.twitter{
-    background: #fb5649;
-}
-.youtube{
-    background: #fed641;
+body {
+  background-color: #ffffff;
+  color: #18181b;
+  font-family: "pixels";
+  font-weight: 600;
 }
 
-.github , .linkedin , .portfolio , .twitter , .youtube{
-    box-shadow: 5px 5px 0px #18181b;
+.github,
+.linkedin,
+.portfolio,
+.twitter,
+.youtube {
+  background-color: #ffffff;
+  border: 4px solid #18181b;
+}
+
+.github,
+.linkedin,
+.portfolio,
+.twitter,
+.youtube {
+  box-shadow: 5px 5px 0px #18181b;
 }
