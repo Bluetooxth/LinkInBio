@@ -17,7 +17,7 @@ const LinkPage = () => {
       <div className="flex flex-col justify-center items-center gap-3 w-full">
         <Link
           href="https://github.com/Bluetooxth"
-          className="flex flex-row justify-between items-center w-full px-6 py-4 border-4 border-zinc-800 cursor-pointer github"
+          className="flex flex-row justify-between items-center w-full px-6 py-3 cursor-pointer github"
         >
           <p className="text-2xl font-semibold hover:underline transition ease-in-out">
             Github
@@ -28,7 +28,7 @@ const LinkPage = () => {
         </Link>
         <Link
           href="https://www.linkedin.com/in/priyannxhuu"
-          className="flex flex-row justify-between items-center w-full px-6 py-4 border-4 border-zinc-800 cursor-pointer linkedin"
+          className="flex flex-row justify-between items-center w-full px-6 py-3 cursor-pointer linkedin"
         >
           <p className="text-2xl font-semibold hover:underline transition ease-in-out">
             Linkedin
@@ -39,7 +39,7 @@ const LinkPage = () => {
         </Link>
         <Link
           href="https://priyanshuchahar.vercel.app"
-          className="flex flex-row justify-between items-center w-full px-6 py-4 border-4 border-zinc-800 cursor-pointer portfolio"
+          className="flex flex-row justify-between items-center w-full px-6 py-3 cursor-pointer portfolio"
         >
           <p className="text-2xl font-semibold hover:underline transition ease-in-out">
             Portfolio
@@ -50,7 +50,7 @@ const LinkPage = () => {
         </Link>
         <Link
           href="https://twitter.com/Bluetooxth"
-          className="flex flex-row justify-between items-center w-full px-6 py-4 border-4 border-zinc-800 cursor-pointer twitter"
+          className="flex flex-row justify-between items-center w-full px-6 py-3 cursor-pointer twitter"
         >
           <p className="text-2xl font-semibold hover:underline transition ease-in-out">
             Twitter
@@ -61,7 +61,7 @@ const LinkPage = () => {
         </Link>
         <Link
           href="https://www.youtube.com/@bluetooxth"
-          className="flex flex-row justify-between items-center w-full px-6 py-4 border-4 border-zinc-800 cursor-pointer youtube"
+          className="flex flex-row justify-between items-center w-full px-6 py-3 cursor-pointer youtube"
         >
           <p className="text-2xl font-semibold hover:underline transition ease-in-out">
             Youtube
