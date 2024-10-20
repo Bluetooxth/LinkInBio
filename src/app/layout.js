@@ -1,6 +1,11 @@
+import localFont from "next/font/local";
 import "./globals.css";
 import "./style.css";
 
+const font = localFont({
+  src: "./fonts/font.ttf",
+  weight: "400",
+});
 
 export const metadata = {
   title: "Priyanshu Chahar",
@@ -17,7 +22,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
       </head>
-      <body>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
